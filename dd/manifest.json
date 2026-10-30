@@ -1,0 +1,119 @@
+{
+ "from": "C:\\git\\esma\\timesjl-sources\\_pending\\OTNYC\\S1_NYC_REF (Veda export of 30 Oct 2026, checked 30 Oct 2026)",
+ "imported": "2026-10-30",
+ "layout": "dd/<scenario>/<scenario>.run + *.dd",
+ "model": "OTNYC",
+ "scenarios": {
+  "s1_nyc_ref": {
+   "files": {
+    "base.dd": {
+     "bytes": 4122627,
+     "sha256": "69066036bfea38d68d8c9cef81e0e391cd8d96c79e46d175a1be6d9aa1ba287a"
+    },
+    "cplex.opt": {
+     "bytes": 107,
+     "sha256": "cde97179c75a2ebbe8f20c4968960bb54cb8bc6c33beff32607f92b0799492f7"
+    },
+    "gdr_ref.dd": {
+     "bytes": 743,
+     "sha256": "67ec427ec7954e68a3bc41f20511dedf0e9e87cf47c920cb75f51ff743de442f"
+    },
+    "ghg.dd": {
+     "bytes": 87367,
+     "sha256": "4430c71dcea743e2f3b1f4d4c2023d2d7fa5998bd781651157676922578b16d2"
+    },
+    "s1_nyc_ref.run": {
+     "bytes": 2332,
+     "sha256": "693c050efec3aa5563550fb7c41101bd50f9538043fa27e9ff1473b13d736c45"
+    },
+    "s1_nyc_ref_ts.dd": {
+     "bytes": 98,
+     "sha256": "3532c121d1d758a7a4a26002ce65dedd8ba67ae24ac3ea376989ec365166556d"
+    },
+    "syssettings.dd": {
+     "bytes": 284425,
+     "sha256": "effc6aa45f488bd79b5cb85796d5d3849b2f29d20755bfc9d9fd3f0e5bdfee99"
+    },
+    "techcom.dd": {
+     "bytes": 1190059,
+     "sha256": "8e86d4e41ae3ee8f3c00a0866d5290f4f81d4fdc487c249123da24577ba45085"
+    },
+    "techelc.dd": {
+     "bytes": 238653,
+     "sha256": "e3ba493cd68c0efe00ead353d656a216b5c8a0cb6f3536575e4d045809a79e2d"
+    },
+    "techh2g.dd": {
+     "bytes": 87893,
+     "sha256": "a7e94bc39ba6220d83c6a474ab76e33b2de25f628dfca56aab9b2dfab253bf43"
+    },
+    "technga.dd": {
+     "bytes": 9462,
+     "sha256": "ab498717c1c378d1ab5d3efe9391fa5dfe35c5d965b04e4cb4fa051500b0556a"
+    },
+    "techref.dd": {
+     "bytes": 3084,
+     "sha256": "2e7025edcba96656b4ac8601d0ffb461168b9468d86bfdbea759f44c70b642a5"
+    },
+    "techres.dd": {
+     "bytes": 835309,
+     "sha256": "8c13ca03416da1339ed02082263ccb6df1437c245974d6373f2bdf3bbf29e3d8"
+    },
+    "techtrnhdv.dd": {
+     "bytes": 3319783,
+     "sha256": "83136c67e7c2b7a3ccda42b706e2e250e7b1752785c160ccb65a302ce7e36e1b"
+    },
+    "techtrnldv.dd": {
+     "bytes": 1315807,
+     "sha256": "2cc230bf75e2c2d2278240ab7bcd6a57a6ad0f25de5cc12fb7a0da9ffe564465"
+    },
+    "times2veda.vdd": {
+     "bytes": 4616,
+     "sha256": "91d653ee70ea4185999b30b2977d4a8eee61732d0f783029ef5898f2ff59f49f"
+    },
+    "tradeparam.dd": {
+     "bytes": 97,
+     "sha256": "275f4762b7e2039594158e855567da4f13e99e90931c73bec2c7cdde133d84ce"
+    },
+    "uc_coa.dd": {
+     "bytes": 1398931,
+     "sha256": "0427dfb9172239fa4d3bbf97a952961ad40f3e1579d74705834699ca3dc53939"
+    },
+    "uc_com.dd": {
+     "bytes": 622376,
+     "sha256": "f23fa41039e2a6c3396337e68efe5d8cc7511ace40c77e0621dd2b40daae495f"
+    },
+    "uc_elc.dd": {
+     "bytes": 293692,
+     "sha256": "4a8db80c18aff7f35efe937b3453e78eb6e52c853dcf2464551ac53ff4535663"
+    },
+    "uc_ind.dd": {
+     "bytes": 18882,
+     "sha256": "4d0f54f95db13364e865b52a92fabdbee9df751eed5c8a5e95b5b67ef11e59b5"
+    },
+    "uc_nga.dd": {
+     "bytes": 223512,
+     "sha256": "da246f7b6ee902e56bdaafe206ce67d27a994584b87f010488d2e4220ea0785c"
+    },
+    "uc_oil.dd": {
+     "bytes": 695470,
+     "sha256": "9ede16da53f57bf7f75365a33921d1c635c253153216e933552313be1798049a"
+    },
+    "uc_res.dd": {
+     "bytes": 885072,
+     "sha256": "d5b82afbf794663df45a625615d6fb27b5e61a2d37fa8f2863d57375c3e2e2bf"
+    },
+    "uc_trnhdv.dd": {
+     "bytes": 583366,
+     "sha256": "082382c9cf4dcf780ce4e4a3f75f32e926828c549d7482417534fa0607b9f7a0"
+    },
+    "uc_trnldv.dd": {
+     "bytes": 1559816,
+     "sha256": "abd1fd136173e1d5d3e209fd9a5cf7a1b5cdf8b2e9ea41cc88473aafcfc07f33"
+    }
+   },
+   "n_dd": 23,
+   "run": "s1_nyc_ref.run"
+  }
+ },
+ "source": "esma-ie/OTNYC (CC BY-SA 4.0; EPA COMET-NYC v16.0.1 origin, US public domain)"
+}
