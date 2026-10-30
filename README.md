@@ -6,9 +6,10 @@ electricity from 2010 to 2055. It is developed and maintained by Energy
 Systems Modelling Analytics Ltd (ESMA), Galway, Ireland, and published
 under an open licence (CC BY-SA 4.0).
 
-> **Status: being set up.** The US EPA's COMET-NYC v16.0.1 as released
-> (to be tagged `comet-nyc-v16.0.1`) and its GAMS-ready export (`dd/`) are
-> added next. ESMA's redevelopment follows as later commits.
+> **Status: under redevelopment.** This repository holds the US EPA's
+> COMET-NYC v16.0.1 as released (tag `comet-nyc-v16.0.1`) and the
+> GAMS-ready export of its reference scenario, S1_NYC_REF (`dd/`). ESMA's
+> redevelopment follows as later commits.
 
 ## Not a US EPA model
 
@@ -44,10 +45,11 @@ How provenance is kept in this repository:
 1. **The original first.** The first model commit holds the COMET-NYC
    v16.0.1 files exactly as released by the US EPA, unchanged. The commit
    message names the release and gives the SHA-256 checksum of the source
-   archive, and the commit is tagged `comet-nyc-v16.0.1`. Anything the
-   import leaves out is listed in that commit with its size and SHA-256
-   checksum. Workbook properties and external links are as the US EPA
-   released them.
+   archive, and the commit is tagged `comet-nyc-v16.0.1`. The EPA archive
+   holds the Veda model twice, as `COMET_NYC_v16.0.1/` and as a
+   values-only copy, `COMET_NYC_v16.0.1 - just numbers/`; both are kept,
+   and nothing in the archive is left out. Workbook properties and
+   external links are as the US EPA released them.
 2. **ESMA's changes after it.** Every change ESMA makes follows as later
    commits, so `git diff comet-nyc-v16.0.1` shows exactly how OTNYC
    differs from the US EPA's original.
