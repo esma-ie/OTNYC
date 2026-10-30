@@ -1,0 +1,6 @@
+# Every file is kept byte-exact: Git makes no line-ending conversion on any
+# platform, so each file matches the archive or export it came from
+# (README.md, "Lineage and provenance").
+* -text
+# GAMS-ready files exported from the Veda workbooks (dd/README.md).
+dd/** linguist-generated=true
